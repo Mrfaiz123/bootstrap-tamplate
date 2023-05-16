@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/bootstrap-tamplate/static/css/main.33511371.css",
+    "main.js": "/bootstrap-tamplate/static/js/main.b84c3ea1.js",
+    "index.html": "/bootstrap-tamplate/index.html",
+    "main.33511371.css.map": "/bootstrap-tamplate/static/css/main.33511371.css.map",
+    "main.b84c3ea1.js.map": "/bootstrap-tamplate/static/js/main.b84c3ea1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.33511371.css",
+    "static/js/main.b84c3ea1.js"
+  ]
+}
