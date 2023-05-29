@@ -1,4 +1,6 @@
 import React from "react";
+import screen1 from "../images/Screenshot4.png"
+import screen2 from "../images/Screenshot5.png"
 
 
 function Contact() {
@@ -9,8 +11,8 @@ function Contact() {
             <div className="container">
                 <div className="row  d-flex justify-content-around ">  
                     <div className="col-lg-6 col-md-6 col-sm-12 p-0 m-0 " >
-                        <img className="col-lg-10" src="images/Screenshot4.png"/>
-                        <img className="col-lg-10 col-sm-8 mt-4" src="images/Screenshot5.png"/>
+                        <img className="col-lg-10" src={screen1}/>
+                        <img className="col-lg-10 col-sm-8 mt-4" src={screen2}/>
                     </div>
                     <div className="col-lg-5 col-md-6 col-sm-12 p-0 m-0" >
                        <div className="sign container p-5">

@@ -1,4 +1,6 @@
 import React from "react";
+import Screen7 from "..//images/Screenshot1.png"; 
+
 
 function Seeker() {
 
@@ -8,7 +10,7 @@ function Seeker() {
             <div className="container">
                 <div className="row d-flex justify-content-around ">  
                     <div className="col-lg-5 col-md-6 col-sm-12 p-0 m-0">
-                        <img className="col-lg-11" src="/images/Screenshot1.png"/>
+                        <img className="col-lg-11" src={Screen7}/>
                     </div>
                     <div className="col-lg-3 col-md-6 col-sm-12 p-0 m-0 ">
                         <h2>Job Seekers</h2>

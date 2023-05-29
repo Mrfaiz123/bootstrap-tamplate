@@ -1,6 +1,4 @@
-
-
-import {BrowserRouter as Router , Routes , Route} from 'react-router-dom'
+import {Routes , Route} from 'react-router-dom'
 import Page1 from "./component/routes/page1";
 import Page2 from "./component/routes/page2";
 import Page3 from "./component/routes/page3";
@@ -14,7 +12,6 @@ function App() {
 
   return (
     <>
-    <Router>
 
       <Routes>
         <Route path="/" element={<Home/>}/>
@@ -26,8 +23,6 @@ function App() {
       </Routes>
 
      
-    </Router>
-      
     </>
 
   );

@@ -1,5 +1,5 @@
 import React from "react";
-
+import screen6 from "../images/Screenshot2.png"
 function Employer() {
 
   return (
@@ -20,7 +20,7 @@ function Employer() {
 
                     </div>
                     <div className="col-lg-5 col-md-6 col-sm-12   p-0 m-0 ">
-                        <img className="col-lg-11" src="/images/Screenshot2.png"/>
+                        <img className="col-lg-11" src={screen6} />
                     </div>
                 </div>
             </div>

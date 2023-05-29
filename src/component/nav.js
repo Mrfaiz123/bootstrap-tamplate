@@ -1,4 +1,5 @@
 import React from "react";
+import img from "../images/logo.png"
 
 function Nav() {
 
@@ -8,7 +9,7 @@ function Nav() {
             <div className="container ">
                 <div className=" row d-flex justify-content-between ">  
                     <div className="col-lg-2 col-md-2 col-sm-12 p-0 m-0 ">
-                        <img src="/images/logo.png" style={{"cursor": "pointer" }} />
+                        <img src={img} style={{"cursor": "pointer" }} />
                     </div>
                     <div className=" col-lg-6 col-md-7 p-0 m-0">
                         <ul className=" d-flex justify-content-around align-items-center  h-100 list-unstyled ">

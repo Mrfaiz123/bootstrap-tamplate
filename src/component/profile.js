@@ -1,4 +1,6 @@
 import React from "react";
+import Screen8 from "../images/Screenshot.png"; 
+
 
 function Profile() {
 
@@ -11,7 +13,7 @@ function Profile() {
                         <h1 className="text-center" style={{"fontWeight":"bold","marginTop":"100px"}}>User Profile</h1>
                         <div className="mt-5 d-flex justify-content-around">
                             <div className="col-lg-2 col-md-3 col-sm-3 d-flex justify-content-evenly ">
-                                <img style={{"fontSize":"40px","height":"185px"}} src="/images/Screenshot.png"/>
+                                <img style={{"fontSize":"40px","height":"185px"}} src={Screen8}/>
                                 <div className="d-flex flex-column" style={{"fontWeight":"bold"}}>
                                     <p>John Doe</p>
                                     <p>John Doe</p>
@@ -21,7 +23,7 @@ function Profile() {
                                 </div>
                             </div>
                             <div className="col-lg-2  col-md-3 col-sm-3 d-flex justify-content-evenly">
-                                <img style={{"fontSize":"40px","height":"185px"}} src="/images/Screenshot.png"/>
+                                <img style={{"fontSize":"40px","height":"185px"}} src={Screen8}/>
                                 <div className="d-flex flex-column" style={{"fontWeight":"bold"}}>
                                     <p>John Doe</p>
                                     <p>John Doe</p>
@@ -31,7 +33,7 @@ function Profile() {
                                 </div>
                             </div>
                             <div className="col-lg-2  col-md-3 col-sm-3 d-flex justify-content-evenly">
-                                <img style={{"fontSize":"40px","height":"185px"}} src="/images/Screenshot.png"/>
+                                <img style={{"fontSize":"40px","height":"185px"}} src={Screen8}/>
                                 <div className="d-flex flex-column" style={{"fontWeight":"bold"}}>
                                     <p>John Doe</p>
                                     <p>John Doe</p>
@@ -41,7 +43,7 @@ function Profile() {
                                 </div>
                             </div>
                             <div className="col-lg-2  col-md-3 col-sm-3 d-flex justify-content-evenly">
-                                <img style={{"fontSize":"40px","height":"185px"}} src="/images/Screenshot.png"/>
+                                <img style={{"fontSize":"40px","height":"185px"}} src={Screen8} />
                                 <div className="d-flex flex-column" style={{"fontWeight":"bold"}}>
                                     <p>John Doe</p>
                                     <p>John Doe</p>
